@@ -14,7 +14,7 @@ class Roulette extends React.Component {
     }
 
     shuffle(){
-        var rand = Math.floor(Math.random()*30) + 1;
+        var rand = Math.floor(Math.random()*100) + 1;
         this.setState({number: rand});
     }
 
